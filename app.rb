@@ -8,7 +8,7 @@ require 'mysql2-cs-bind'
 URL = "http://b.hatena.ne.jp/hotentry/it"
 $config = JSON.parse(IO.read(File.dirname(__FILE__) + "/config/settings.json"))
 
-targets = ["ruby", "rails", "aws", "vim", "tmux"]
+targets = ["ruby", "rails", "aws", "vim", "javascript", "node"]
 
 def database
   return $mysql if $mysql
